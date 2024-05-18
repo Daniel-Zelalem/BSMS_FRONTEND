@@ -1,0 +1,70 @@
+.card {
+  width: 350px;
+  border-radius: 5px;
+  box-shadow: #0000001f 0 1px 3px, #0000003d 0 1px 2px;
+  margin: 0 2rem 2rem 0;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.badge {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0 0 3px #1f1e2f0d;
+  padding: 4px 6px 3px;
+  font-weight: 400;
+  line-height: 10px;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.badge-secondary {
+  background-color: #ecedf1 !important;
+  opacity: 0.8 !important;
+  color: #000;
+}
+.status-overlay {
+  position: absolute;
+  left: 17px;
+  top: 235px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 16px;
+}
+.ml-2,
+.mx-2 {
+  margin-left: 0.5rem !important;
+}
+.mt-1,
+.my-1 {
+  margin-top: 0.25rem !important;
+}
+.price-overlay {
+  position: absolute;
+  right: 10px;
+  top: 240px;
+  z-index: 99;
+  cursor: pointer;
+  font-size: 16px;
+}

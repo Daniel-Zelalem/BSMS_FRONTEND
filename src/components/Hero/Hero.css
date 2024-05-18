@@ -1,0 +1,119 @@
+.hero {
+  background-image: url("../../../public/images/bg//banner4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  padding: 5%;
+}
+.hero .container {
+  padding-top: 17%;
+}
+
+.hero p {
+  opacity: 0.99999;
+}
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 35px;
+  padding: 0 20px;
+}
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form span {
+  font-size: 14px;
+  color: grey;
+}
+input::placeholder {
+  font-size: 17px;
+  color: black;
+}
+
+form .box {
+  padding: 15px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
+
+.equal-size-select {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid rgba(128, 128, 128);
+  border-radius: 0.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.3rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  color: hsl(240, 1%, 23%);
+  font-size: 17px;
+}
+.price-input {
+  width: 85%;
+  padding: 0.5rem;
+  border: 1px solid rgba(128, 128, 128);
+  border-radius: 0.25rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0.3rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  font-size: 14px;
+  color: hsl(240, 1%, 23%);
+}
+.price-input::placeholder {
+  color: hsl(240, 1%, 23%);
+}
+.price-input:focus {
+  outline: none;
+}
+.equal-size-select::placeholder {
+  color: hsl(240, 1%, 23%);
+}
+.equal-size-select:focus {
+  outline: none;
+}
+.opt {
+  font-family: Arial, Helvetica, sans-serif;
+}
+select:focus {
+  outline: none !important;
+  border: 1px solid rgba(128, 128, 128) !important;
+  box-shadow: none !important;
+}
+
+.input {
+  height: 36px;
+}
+option {
+  font-size: 17px;
+  color: black;
+}
